@@ -1,5 +1,5 @@
-#ifndef DEEPLEARNING_MATRICE_H
-#define DEEPLEARNING_MATRICE_H
+#ifndef MATRICE_LIB_H
+#define MATRICE_LIB_H
 #include <vector>
 
 class Matrice {
@@ -45,4 +45,4 @@ private:
 };
 
 Matrice randomMatrice(unsigned int I, unsigned int J);//return a random matrice
-#endif //DEEPLEARNING_MATRICE_H
+#endif //MATRICE_LIB_H
