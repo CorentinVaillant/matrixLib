@@ -158,7 +158,7 @@ Matrice Matrice::getTranspose() {
 }
 
 //renvoie l'inverse de la matrice
-Matrice Matrice::getInverse() {
+Matrice Matrice::getInverse() { //🤮🤮🤮
     if(isInversedCalculed) return *pInverse ;
     else{
         Matrice result = getComatrice().getTranspose() * (1/getDet());
